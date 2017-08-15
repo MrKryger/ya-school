@@ -18,7 +18,6 @@ window.MyForm = {
         if (result.fio == true) {
             cFio.classList.remove('error');
         } else {
-            // arr.fio = 'fio';
             arr.push('fio');
             cFio.classList.add('error');
         }
